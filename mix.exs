@@ -30,7 +30,7 @@ defmodule Meeseeks.Mixfile do
       {:meeseeks_html5ever, "~> 0.12.1"},
 
       # dev
-      {:dialyxir, "~> 0.5", only: :dev, runtime: false},
+      {:dialyxir, "~> 1.0", only: :dev, runtime: false},
 
       # docs
       {:ex_doc, ex_doc_version(), only: :docs, runtime: false}
